@@ -8,7 +8,17 @@ export class TasksService {
       message: 'welcome to task-scheduler API',
     };
   }
-  getAllTasks() {
+  find() {
     return ['this will be implemented soon'];
+  }
+  findOne(id: number) {
+    return id;
+  }
+
+  delete(id: number) {
+    return id;
+  }
+  update(id: number) {
+    return id;
   }
 }
